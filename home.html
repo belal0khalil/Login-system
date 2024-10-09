@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+<body class="bg-dark" onload="welcome()">
+<div class="container w-50 mt-5 py-5">
+    <a href="login.html" class="position-absolute top-0 end-0 mt-3 me-2">
+        <button class="btn btn-primary">Log Out</button>
+    </a>
+    <h3 id="hello" class="text-center fw-bold text-white"> Hello Belal</h3>
+    <textarea class="form-control w-50 m-auto" id="postcontent" placeholder="what is in your mind?"></textarea>
+     <div class="d-flex align-items-center justify-content-center mt-3">
+        <button class="btn btn-success d-block" id="addbutton" onclick="createpost()" >post</button>
+        <button class="btn btn-warning d-none" id="updatebutton" onclick="updatepost()">update</button>
+    </div>
+</div>
+<div class="container mt-4">
+    <div class="cards d-flex flex-column align-items-center " id="posts">
+        
+       
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

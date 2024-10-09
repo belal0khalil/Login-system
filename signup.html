@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+<body class="bg-dark">
+  <h1 class=" h3 text-center mt-5 color"> Smart Log In System</h1>
+    <div class="container mt-5 py-5 w-50">
+        <div class="alert alert-danger d-none"> please Fill up all the data</div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control userName" id="usernameinput" placeholder="name@example.com">
+            <label for="usernameinput">UserName</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control userEmail" id="emailinput" placeholder="Password">
+            <label for="emailinput">User Email</label>
+          </div>
+          <div class="form-floating m">
+            <input type="password" class="form-control password" id="passwordinput" placeholder="Password">
+            <label for="passwordinput">Password</label>
+          </div>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-primary mt-2 sign-up" onclick="signup()">Sign Up</button>
+            <p class="mt-2 text-white">already have an account?
+                <a href="login.html" class="text-decoration-none"> LogIn</a>
+            </p>
+          </div>
+        
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
